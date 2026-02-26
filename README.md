@@ -20,11 +20,17 @@ in a rapidly evolving digital age.
 What you will find
 
 Digital wellbeing- Tips and insights on health tech habits
+
 Privacy and security - Understanding your digital footprint
+
 Tech ethics-The social impact of emerging technologies
+
 GET INVOLVED
-Tech bloom grows with you.whether you want to share your story,contribute resources or simply learn more.
- Email  - markkasibante19@gmail.com
+
+Tech bloom grows with you.whether you want to share your story,
+contribute resources or simply learn more.
+
+ Email  - techbloom19@gmail.com
 Website URL-techbloom.com
 Social -linkedIn;[linkedin.com/company/tech-bloom]
 Instagram:[@techbloom-][https;//instagram.com/techbloom-]
