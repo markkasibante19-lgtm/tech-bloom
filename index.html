@@ -3,9 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Bloom</title>
+    <title>TechAware - login</title>
+    <links rel="stylesheet" href="style.css">
+    <links rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    
-</body>
-</html>
+     <!-- same navigation as index.html -->
+      <nav class="navbar">
+        <div class="container">
+        <div class="logo">
+            <h2>Tech<span>Aware</span> Uganda</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="scams.html" class="active">scam Alerts</a></li>
+                <li><a href="login.html">Admin</a></li>
+            </ul>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+       <section class="hero">
+       <div class="container">
+        <div class="hero-content">
+            <Span class="badge">Uganda's Trusted Tech Safety Guide</Span>
+            <h1>stay <span class="highlight">Safe</span> & <span class="highlight">Informed</span> in the Digital World</h1>
+            <P> Your complete guide to cyber security, emerging technologies, and online safety. We help Ugandans navigate the digital world safely.</P>
+
+            <!-- scam Alert Box -->
+             <div class="alert-box">
+                <i class="fas fa-exclamation-triangle"></i>
+             </div>
+             <strong>ACTIVE SCAM ALERT:</strong> Fake "Free Data" messages on Whatsapp. DO NOT cick any links!
+             <a href="scams.html">Learn more </a>
+        </div>
+       </div>
+
+       <div class="hero-buttons">
+        <a href="#learn" class="btn btn-primary">start learning <i class="fas fa-arrow-right"></i></a>
+        <a href="#learn" class="btn btn-secondary">Report a scam</a>
+       </div>
+
+       <!-- stats -->
+        <div class="stats">
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Articles</p>
+            </div>
+            <div class="stat-item">
+                <h3>60+</h3>
+                <p>Readers</p>
+            </div>
+            <div class="stat-item">
+                <h3>100+</h3>
+                <p>security Tips</p>
+            </div>
+        </div>
+    </div>
+    <div class="hero-image">
+        <!--Your photo wil go here -->
+        <img src="images/hero-image.jpg" alt="cyber security Uganda" onerror="this.src='https://via.placeholder.com/600*500/6b46c1/FFFFFF?text=Your+photo+Here'">"
+    </div>
+</div>
+</section>
+
+<!-- Featured Topies -->
+ <section class="featured" id="learn">
+    <div class="container">
+        <h2 class="section-title">What You'll Learn</h2>
+        <p class="section-subtitle">Essential topics for every Ugandan</p>
+
+        <div class="featured-grid">
+            <div class="featured-card">
+                <div class="icon" style="background: #6B46C1;">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Cyber security Basics</h3>
+                <p>protect yourself from hackers, scammers and online threats</p>
+                <a href="#">Start Learning </a>
+            </div>
+            <div class="featured-card">
+                <div class="icon" style="background: #3182CE;">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>AI & Future Tech</h3>
+                <P>Understand AI, blockchains and upcoming technologies</P>
+                <a href="#">Explore →</a>
+            </div>
+            <div class="featured-card">
+                <div class="icon" style="background: #6B46c1;">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Family Safety</h3>
+                <p>protect your children and parents online</p>
+                <a href="#">Get Tips </a>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Lastest Scams Section -->
+  <section class="lastest-scams">
+    <div class="container">
+        <h2 class="section-title">Recent Scams in Uganda</h2>
+        <div class="scams-grid">
+            <div class="scam-card high">
+                <span class="scan-tag">URGENT</span>
+                <h3>WhatsApp "Free Data" Scam</h3>
+                <P>Messages claiming to offer free MTN/Airtel data. Links steak your info.</P>
+                <small>Reported: Today • 234 reports</small>
+            </div>
+            <div class="scam-card">
+                <span class="scam-tag">ACTIVE</span>
+                <h3>Centenary Bank Fake Calls</h3>
+                <P>scammers posing as banks asking for OTP. Banks never asks for OTP.</P>
+                <small>Reported: yesterday • 89 reports</small>
+            </div>
+            <div class="scam-card">
+                <span class="scam-tag">WARNING</span>
+                <P>"Double your money" crypto schemes. They take your money and disappear.</P>
+                <small>Reported: This week • 156 reports</small>
+            </div>
+        </div>
+    <div class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Get Weekly security Alerts</h2>
+                <P>Stay ahead of scammers. Free security tips every week.</P>
+                <form class="newslettr-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <small>No spam. Unsubscribe anytime.</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>TechAware Uganda</h4>
+                    <p>Making technology safe and understandable for every Ugandan.</p>
+                    <div class="social-links">
+                        <a href="#"><i" class="fab fa-twitter"></i></a>
+                        <a href="#"><i" class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i" class="fab fa-youtube"></i></a>
+                        <a href="#"><i" class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                </ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="scams.html">Report a scam</a></li>
+                <li><a href="#">FAQs</a></li>
+            </Ul>
+                </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                 <ul>
+                    <li><i class="fas fa-phone"></i>0709058223</li>
+                    <li><i class="fas fa-envelope"></i> info@techaware.ug</li>
+                    <li><i class="fas fa-map-marker"></i> Kampala,Uganda</li>
+                 </ul>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                <P>&copy; 2026 TechAware Uganda. All rigts reserved.</P>
+            </div>
+        </div>
+     </footer>
+ </body>
+ </html>
