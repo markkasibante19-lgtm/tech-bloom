@@ -291,3 +291,210 @@ font-size: 32px;
 color: #1a1a2e;
 margin-bottom: 40px;
 }
+/* Scams Grid */
+.scams-grid {
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+max-width: 1100px;
+margin: 0 auto;
+}
+/* Scam Card */
+.scam-card {
+background: #fff;
+border-radius: 12px;
+padding: 25px;
+width: 300px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+transition: all 0.3s ease;
+border-left: 4px solid #ff9800;
+}
+.scam-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+/* Scam Tags */
+.scam-tag {
+display: inline-block;
+padding: 5px 12px;
+border-radius: 20px;
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+.scam-card .scam-tag:first-of-type {
+background: #ffeb3b;
+color: #333;
+}
+/* Different tag colors */
+.scam-card:first-child .scam-tag {
+background: #d32f2f;
+color: white;
+}
+.scam-card:nth-child(2) .scam-tag {
+background: #ff9800;
+color: white;
+}
+.scam-card:nth-child(3) .scam-tag {
+background: #f44336;
+color: white;
+}
+/* Card Headings */
+.scam-card h3 {
+font-size: 18px;
+color: #1a1a2e;
+margin: 10px 0;
+}
+.scam-card p {
+font-size: 14px;
+color: #555;
+line-height: 1.5;
+margin: 10px 0;
+}
+.scam-card small {
+font-size: 12px;
+color: #999;
+display: block;
+margin-top: 15px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+.latest-scams {
+padding: 40px 15px;
+}
+.section-title {
+font-size: 26px;
+}
+.scam-card {
+width: 100%;
+max-width: 350px;
+}
+}
+/* Newsletter Section */
+.newsletter {
+background: linear-gradient(135deg, #1a1a2e, #16213e);
+padding: 60px 20px;
+margin: 40px 0 0 0;
+text-align: center;
+}
+.newsletter-content {
+max-width: 500px;
+margin: 0 auto;
+}
+.newsletter-content h2 {
+color: white;
+font-size: 28px;
+margin-bottom: 10px;
+}
+.newsletter-content p {
+color: #cccccc;
+font-size: 16px;
+margin-bottom: 25px;
+}
+/* Newsletter Form */
+.newslettr-form {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 10px;
+}
+.newslettr-form input {
+flex: 1;
+min-width: 250px;
+padding: 14px 20px;
+border: none;
+border-radius: 50px;
+font-size: 16px;
+outline: none;
+}
+.newslettr-form button {
+background: #e67e22;
+color: white;
+border: none;
+padding: 14px 30px;
+border-radius: 50px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.newslettr-form button:hover {
+background: #cc5500;
+transform: scale(1.02);
+}
+.newsletter-content small {
+display: block;
+color: #888;
+font-size: 12px;
+margin-top: 15px;
+}
+/* Footer */
+.footer {
+background: #0f0f1a;
+color: white;
+padding: 40px 20px 20px;
+}
+.footer-content {
+display: flex;
+justify-content: center;
+gap: 60px;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: 0 auto;
+}
+.footer-section {
+text-align: left;
+}
+.footer-section h4 {
+color: #e67e22;
+font-size: 18px;
+margin-bottom: 15px;
+}
+.footer-section ul {
+list-style: none;
+padding: 0;
+}
+.footer-section ul li {
+margin-bottom: 10px;
+}
+.footer-section ul li a {
+color: #cccccc;
+text-decoration: none;
+transition: color 0.3s;
+}
+.footer-section ul li a:hover {
+color: #e67e22;
+}
+.footer-section ul li i {
+width: 25px;
+color: #e67e22;
+}
+.footer-bottom {
+text-align: center;
+padding-top: 30px;
+margin-top: 30px;
+border-top: 1px solid #222;
+color: #888;
+font-size: 14px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+.newsletter-content h2 {
+font-size: 24px;
+}
+.newslettr-form {
+flex-direction: column;
+}
+.newslettr-form input,
+.newslettr-form button {
+width: 100%;
+}
+.footer-content {
+gap: 30px;
+text-align: center;
+}
+.footer-section {
+text-align: center;
+}
+}
