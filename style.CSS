@@ -229,3 +229,65 @@ color: #666;
 margin-bottom: 40px;
 font-size: 16px;
 }
+/* Topics Grid */
+.topics-grid {
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+max-width: 1000px;
+margin: 0 auto;
+}
+/* Topic Card */
+.topic-card {
+background: white;
+padding: 30px 25px;
+border-radius: 12px;
+width: 280px;
+text-align: center;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+transition: all 0.3s ease;
+border-bottom: 3px solid #e67e22;
+}
+.topic-card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+/* Topic Icons */
+.topic-icon {
+font-size: 45px;
+margin-bottom: 15px;
+}
+.topic-card h3 {
+font-size: 22px;
+color: #1a1a2e;
+margin: 15px 0 10px;
+}
+.topic-card p {
+font-size: 14px;
+color: #666;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+.topic-link {
+color: #e67e22;
+text-decoration: none;
+font-weight: bold;
+font-size: 14px;
+transition: color 0.3s;
+}
+.topic-link:hover {
+color: #cc5500;
+text-decoration: underline;
+}
+/* Recent Scams Section */
+.latest-scams {
+background: white;
+padding: 50px 20px;
+}
+.section-title {
+text-align: center;
+font-size: 32px;
+color: #1a1a2e;
+margin-bottom: 40px;
+}
