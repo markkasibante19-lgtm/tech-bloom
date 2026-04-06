@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scams.html</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="scams.html">scam Alerts</a></li>
+                <li><a href="tips.html">Tips</a></li>
+            </ul>
+            <hr>
+    </nav>
+    <div>
+    <h1 class="phones">Scams</h1>
+    <hr>
+    <p>Scams are fraudulent schemes designed to deceive individuals and steal their money or personal information. They can take various forms, such as phishing emails, fake websites, or phone scams. It's important to stay vigilant and be cautious when sharing personal information online or over the phone. Always verify the legitimacy of any communication before providing sensitive information or making financial transactions.</p>
+    <section>
+        <h2>Common Types of Scams</h2>
+        <ul>
+            <li>Phishing Scams: These scams involve fraudulent emails or messages that appear to be from reputable sources, aiming to trick individuals into revealing personal information.</li>
+            <li>Online Shopping Scams: These scams involve fake online stores that offer products at extremely low prices, but never deliver the goods.</li>
+            <li>Tech Support Scams: Scammers pose as tech support representatives and claim there is a problem with your computer, then ask for remote access or payment to fix the issue.</li>
+            <li>Investment Scams: These scams promise high returns on investments but are actually fraudulent schemes designed to steal money.</li>
+            <li>Romance Scams: Scammers create fake profiles on dating sites or social media to establish romantic relationships and then ask for money or personal information.</li>
+            </ul>
