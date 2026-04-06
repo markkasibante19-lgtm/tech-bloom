@@ -644,3 +644,20 @@ margin: 30px 0 15px 0;
 padding-left: 10px;
 border-left: 4px solid #e67e22;
 }
+.about-container p {
+color: #555;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+.about-container ul {
+background: white;
+padding: 20px 20px 20px 40px;
+border-radius: 12px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+margin: 15px 0;
+}
+.about-container li {
+padding: 8px 0;
+color: #333;
+border-bottom: 1px solid #eee;
+}
