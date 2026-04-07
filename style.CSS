@@ -869,3 +869,28 @@ padding: 12px 40px;
 font-size: 16px;
 }
 }
+/* TIPS PAGE STYLES */
+.type {
+text-align: center;
+color: #e67e22;
+font-size: 36px;
+margin: 30px 0 5px 0;
+}
+.type + p {
+text-align: center;
+color: #666;
+margin-bottom: 40px;
+}
+.tips-container {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.tips-container h2 {
+background: #e67e22;
+color: white;
+padding: 12px 20px;
+border-radius: 8px;
+margin: 25px 0 15px 0;
+font-size: 20px;
+}
