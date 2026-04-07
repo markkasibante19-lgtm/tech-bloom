@@ -677,3 +677,34 @@ font-weight: bold;
 color: #1a1a2e;
 margin-right: 5px;
 }
+/* SCAMS PAGE STYLES */
+.phones {
+text-align: center;
+color: #e67e22;
+font-size: 36px;
+margin: 30px 0 10px 0;
+}
+.scams-container {
+max-width: 900px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.scams-container h2 {
+color: #1a1a2e;
+font-size: 24px;
+margin: 30px 0 15px 0;
+padding-left: 10px;
+border-left: 4px solid #e67e22;
+}
+.scams-container ul {
+background: white;
+padding: 20px 20px 20px 40px;
+border-radius: 12px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+margin-bottom: 25px;
+}
+.scams-container li {
+padding: 8px 0;
+color: #333;
+border-bottom: 1px solid #eee;
+}
