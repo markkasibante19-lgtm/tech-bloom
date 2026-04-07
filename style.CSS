@@ -894,3 +894,35 @@ border-radius: 8px;
 margin: 25px 0 15px 0;
 font-size: 20px;
 }
+.tips-container ul {
+background: white;
+padding: 20px 20px 20px 40px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+margin: 0 0 20px 0;
+}
+.tips-container li {
+padding: 8px 0;
+color: #333;
+border-bottom: 1px solid #eee;
+}
+.tips-container li:last-child {
+border-bottom: none;
+}
+/*BUTTONS (Shared) */
+.btn-primary, .btn-secondary {
+display: inline-block;
+padding: 12px 28px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+transition: all 0.3s ease;
+}
+.btn-primary {
+background: linear-gradient(135deg, #e67e22, #cc5500);
+color: white;
+}
+.btn-primary:hover {
+transform: translateY(-3px);
+box-shadow: 0 5px 15px rgba(230, 126, 34, 0.4);
+}
