@@ -803,3 +803,69 @@ background-clip: text;
 color: transparent;
 font-size: 36px;
 }
+/* Circle Text */
+.circle-text {
+text-align: center;
+margin: 40px 0;
+}
+.circle {
+width: 400px;
+max-width: 90%;
+height: auto;
+background:linear-gradient(135deg, #cc5500 blue) ;
+backdrop-filter: blur(10px);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 60px 30px;
+margin: 0 auto;
+border: 1px solid rgba(255, 255, 255, 0.1);
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+.circle h1 {
+font-size: 28px;
+color: whitesmoke;
+line-height: 1.4;
+margin: 0;
+font-weight: 600;
+}
+/* Get Started Button */
+.get-started-btn {
+display: inline-block;
+background: linear-gradient(135deg, #e67e22, #cc5500);
+color: white;
+padding: 15px 50px;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+border-radius: 50px;
+transition: all 0.3s ease;
+box-shadow: 0 5px 20px rgba(230, 126, 34, 0.4);
+margin-top: 20px;
+}
+.get-started-btn:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 30px rgba(230, 126, 34, 0.6);
+background: linear-gradient(135deg, #cc5500, #e67e22);
+}
+/* Responsive */
+@media (max-width: 768px) {
+.logo-text h1 {
+font-size: 36px;
+}
+.logo-text .uganda {
+font-size: 28px;
+}
+.circle {
+padding: 40px 20px;
+}
+.circle h1 {
+font-size: 20px;
+}
+.get-started-btn {
+padding: 12px 40px;
+font-size: 16px;
+}
+}
