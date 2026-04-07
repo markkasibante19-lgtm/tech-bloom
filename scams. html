@@ -51,3 +51,17 @@
         </ul>
         
     </div>
+ </section>
+    <!--scams Alert box-->
+<div class="protection">
+    <i class="fas fa-exclamation-triangle"></i>
+    
+<strong >ACTIVE SCAM ALERT:</strong>"Fake data" messges on whatapp. DO NOT click any links!
+<a href="scams.html">Learn More</a>
+</div>
+<div class="types">
+    <a href="#learn" class="btn btn-primary"> start Learning <i class="fas fa-arrow-right"></i> </a>
+    <a href="#learn" class="btn btn-secondary">Report a Scam <i class="fas fa-exclamation-circle"></i> /a>
+</div>
+</body>
+</html>
