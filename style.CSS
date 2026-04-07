@@ -731,3 +731,19 @@ align-items: center;
 flex-wrap: wrap;
 gap: 10px;
 }
+.scams-alert strong {
+color: #d32f2f;
+}
+.scams-alert a {
+color: #e67e22;
+text-decoration: none;
+font-weight: bold;
+}
+/* Scams Buttons */
+.scams-buttons {
+display: flex;
+justify-content: center;
+gap: 20px;
+margin: 30px 0;
+flex-wrap: wrap;
+}
