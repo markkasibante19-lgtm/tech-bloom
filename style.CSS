@@ -926,3 +926,35 @@ color: white;
 transform: translateY(-3px);
 box-shadow: 0 5px 15px rgba(230, 126, 34, 0.4);
 }
+.btn-secondary {
+background: transparent;
+color: #e67e22;
+border: 2px solid #e67e22;
+}
+.btn-secondary:hover {
+background: #e67e22;
+color: white;
+transform: translateY(-3px);
+}
+/*RESPONSIVE (All pages) */
+@media (max-width: 768px) {
+.phones, .type, .about-container h2 {
+font-size: 28px;
+}
+.scams-container h2, .about-container h3 {
+font-size: 20px;
+}
+.tips-container h2 {
+font-size: 18px;
+}
+.scams-container ul, .about-container ul, .tips-container ul {
+padding: 15px 15px 15px 30px;
+}
+.scams-buttons {
+gap: 12px;
+}
+.btn-primary, .btn-secondary {
+padding: 10px 20px;
+font-size: 14px;
+}
+}
