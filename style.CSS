@@ -325,221 +325,189 @@ nav hr {
     font-weight: 500;
 }
 
-/* Featured Topics Section */
+/* Featured Sections */
+.featured,
+.latest-scams {
+    padding: 3.5rem 2rem;
+}
+
 .featured {
-background: #f8f9fa;
-padding: 50px 20px;
-text-align: center;
+    background: linear-gradient(135deg, #ffffff, #fefaf5);
 }
-.featured .container h2 {
-font-size: 32px;
-color: #1a1a2e;
-margin-bottom: 10px;
-}
-.featured .container > p {
-color: #666;
-margin-bottom: 40px;
-font-size: 16px;
-}
-/* Topics Grid */
-.topics-grid {
-display: flex;
-justify-content: center;
-gap: 30px;
-flex-wrap: wrap;
-max-width: 1000px;
-margin: 0 auto;
-}
-/* Topic Card */
-.topic-card {
-background: white;
-padding: 30px 25px;
-border-radius: 12px;
-width: 280px;
-text-align: center;
-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-transition: all 0.3s ease;
-border-bottom: 3px solid #e67e22;
-}
-.topic-card:hover {
-transform: translateY(-8px);
-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-}
-/* Topic Icons */
-.topic-icon {
-font-size: 45px;
-margin-bottom: 15px;
-}
-.topic-card h3 {
-font-size: 22px;
-color: #1a1a2e;
-margin: 15px 0 10px;
-}
-.topic-card p {
-font-size: 14px;
-color: #666;
-line-height: 1.5;
-margin-bottom: 20px;
-}
-.topic-link {
-color: #e67e22;
-text-decoration: none;
-font-weight: bold;
-font-size: 14px;
-transition: color 0.3s;
-}
-.topic-link:hover {
-color: #cc5500;
-text-decoration: underline;
-}
-/* Recent Scams Section */
+
 .latest-scams {
-background: white;
-padding: 50px 20px;
+    background: #ffffff;
 }
+
 .section-title {
-text-align: center;
-font-size: 32px;
-color: #1a1a2e;
-margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a2a3a;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
-/* Scams Grid */
+
+.section-title i {
+    color: #e67e22;
+    font-size: 1.8rem;
+}
+
+.topics-grid,
 .scams-grid {
-display: flex;
-justify-content: center;
-gap: 30px;
-flex-wrap: wrap;
-max-width: 1100px;
-margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
 }
-/* Scam Card */
+
+.topic-card,
 .scam-card {
-background: #fff;
-border-radius: 12px;
-padding: 25px;
-width: 300px;
-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-transition: all 0.3s ease;
-border-left: 4px solid #ff9800;
+    background: white;
+    border-radius: 24px;
+    padding: 2rem;
+    width: 280px;
+    transition: all 0.3s ease;
+    border: 1px solid #f0e6dc;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
 }
+
+.topic-card:hover,
 .scam-card:hover {
-transform: translateY(-5px);
-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-8px);
+    border-color: #e67e22;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
 }
-/* Scam Tags */
-.scam-tag {
-display: inline-block;
-padding: 5px 12px;
-border-radius: 20px;
-font-size: 12px;
-font-weight: bold;
-margin-bottom: 15px;
+
+.topic-card i {
+    font-size: 2.5rem;
+    color: #e67e22;
+    margin-bottom: 1rem;
 }
-.scam-card .scam-tag:first-of-type {
-background: #ffeb3b;
-color: #333;
-}
-/* Different tag colors */
-.scam-card:first-child .scam-tag {
-background: #d32f2f;
-color: white;
-}
-.scam-card:nth-child(2) .scam-tag {
-background: #ff9800;
-color: white;
-}
-.scam-card:nth-child(3) .scam-tag {
-background: #f44336;
-color: white;
-}
-/* Card Headings */
+
+.topic-card h3,
 .scam-card h3 {
-font-size: 18px;
-color: #1a1a2e;
-margin: 10px 0;
+    font-size: 1.3rem;
+    margin: 0.8rem 0 0.5rem;
+    color: #1a2a3a;
 }
+
+.topic-card p,
 .scam-card p {
-font-size: 14px;
-color: #555;
-line-height: 1.5;
-margin: 10px 0;
+    color: #7a8e9e;
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.5;
 }
+
+.topic-card a {
+    color: #e67e22;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.topic-card a:hover {
+    margin-left: 5px;
+}
+
+.scam-tag {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.scam-tag.urgent {
+    background: #d9534f;
+    color: white;
+}
+
+.scam-tag.active {
+    background: #f0ad4e;
+    color: #1a2a3a;
+}
+
+.scam-tag.warning {
+    background: #d9534f;
+    color: white;
+}
+
 .scam-card small {
-font-size: 12px;
-color: #999;
-display: block;
-margin-top: 15px;
+    color: #a0aec0;
+    font-size: 0.7rem;
+    display: block;
+    margin-top: 0.8rem;
 }
-/* Responsive */
-@media (max-width: 768px) {
-.latest-scams {
-padding: 40px 15px;
-}
-.section-title {
-font-size: 26px;
-}
-.scam-card {
-width: 100%;
-max-width: 350px;
-}
-}
-/* Newsletter Section */
+
+/* Newsletter */
 .newsletter {
-background: linear-gradient(135deg, #1a1a2e, #16213e);
-padding: 60px 20px;
-margin: 40px 0 0 0;
-text-align: center;
+    background: linear-gradient(135deg, #1a2a3a, #16213e);
+    padding: 3.5rem 2rem;
+    text-align: center;
+    color: white;
 }
-.newsletter-content {
-max-width: 500px;
-margin: 0 auto;
+
+.newsletter h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
-.newsletter-content h2 {
-color: white;
-font-size: 28px;
-margin-bottom: 10px;
+
+.newsletter h2 i {
+    color: #e67e22;
+    margin-right: 10px;
 }
-.newsletter-content p {
-color: #cccccc;
-font-size: 16px;
-margin-bottom: 25px;
+
+.newsletter p {
+    color: #b0c4de;
+    margin-bottom: 1.8rem;
 }
-/* Newsletter Form */
-.newslettr-form {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 10px;
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
 }
-.newslettr-form input {
-flex: 1;
-min-width: 250px;
-padding: 14px 20px;
-border: none;
-border-radius: 50px;
-font-size: 16px;
-outline: none;
+
+.newsletter-form input {
+    padding: 0.9rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    width: 300px;
+    font-size: 0.9rem;
+    outline: none;
 }
-.newslettr-form button {
-background: #e67e22;
-color: white;
-border: none;
-padding: 14px 30px;
-border-radius: 50px;
-font-size: 16px;
-font-weight: bold;
-cursor: pointer;
-transition: all 0.3s ease;
+
+.newsletter-form button {
+    background: linear-gradient(135deg, #e67e22, #cc5500);
+    border: none;
+    padding: 0.9rem 2rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
 }
-.newslettr-form button:hover {
-background: #cc5500;
-transform: scale(1.02);
+
+.newsletter-form button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(230, 126, 34, 0.4);
 }
-.newsletter-content small {
-display: block;
-color: #888;
-font-size: 12px;
-margin-top: 15px;
+
+.newsletter small {
+    display: block;
+    margin-top: 1rem;
+    color: #8aa0b0;
+    font-size: 0.75rem;
 }
 /* Footer */
 .footer {
