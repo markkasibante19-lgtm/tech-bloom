@@ -509,74 +509,91 @@ nav hr {
     color: #8aa0b0;
     font-size: 0.75rem;
 }
+
 /* Footer */
 .footer {
-background: #0f0f1a;
-color: white;
-padding: 40px 20px 20px;
+    background: #0f1219;
+    color: #cbd5e0;
+    padding: 3rem 2rem 1.5rem;
 }
+
 .footer-content {
-display: flex;
-justify-content: center;
-gap: 60px;
-flex-wrap: wrap;
-max-width: 1000px;
-margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
 }
+
 .footer-section {
-text-align: left;
+    text-align: left;
 }
+
 .footer-section h4 {
-color: #e67e22;
-font-size: 18px;
-margin-bottom: 15px;
+    color: #e67e22;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
+
+.footer-section p {
+    color: #a0aec0;
+    font-size: 0.9rem;
+    max-width: 250px;
+}
+
 .footer-section ul {
-list-style: none;
-padding: 0;
+    list-style: none;
 }
+
 .footer-section ul li {
-margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
-.footer-section ul li a {
-color: #cccccc;
-text-decoration: none;
-transition: color 0.3s;
-}
-.footer-section ul li a:hover {
-color: #e67e22;
-}
+
 .footer-section ul li i {
-width: 25px;
-color: #e67e22;
+    width: 25px;
+    color: #e67e22;
 }
+
+.footer-section a {
+    color: #cbd5e0;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer-section a:hover {
+    color: #e67e22;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #cbd5e0;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+.social-icons a:hover {
+    color: #e67e22;
+    transform: translateY(-2px);
+}
+
 .footer-bottom {
-text-align: center;
-padding-top: 30px;
-margin-top: 30px;
-border-top: 1px solid #222;
-color: #888;
-font-size: 14px;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid #2a3440;
+    font-size: 0.8rem;
+    color: #8aa0b0;
 }
-/* Responsive */
-@media (max-width: 768px) {
-.newsletter-content h2 {
-font-size: 24px;
-}
-.newslettr-form {
-flex-direction: column;
-}
-.newslettr-form input,
-.newslettr-form button {
-width: 100%;
-}
-.footer-content {
-gap: 30px;
-text-align: center;
-}
-.footer-section {
-text-align: center;
-}
+
+.footer-bottom a {
+    color: #e67e22;
+    text-decoration: none;
 }
 /* our get started section starts here*/
 .page-container {
