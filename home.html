@@ -3,79 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home | TechBloom Uganda</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="homepage">
-        
-       <!-- same navigation as home.html -->
-<nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="scams.html">scam Alerts</a></li>
-                <li><a href="tips.html">Tips</a></li>
-            </ul>
-            <hr>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="scams.html">Scam Alerts</a></li>
+            <li><a href="tips.html">Tips</a></li>
+            <li class="how"><a href="get started.html">GET STARTED</a></li>
+        </ul>
+        <hr>
     </nav>
-      <!-- Hero Section -->
-<section>
-         <h1>Stay <span class="highlight">Safe</span> & <span class="highlight">Informed</span> in the Digital World</h1>
-            <p> Your complete guide to cyber security, 
-                emerging technologies, and online safety.
-                 We help Ugandans navigate the digital world safely.</p>
 
-            <!-- scam Alert Box -->
-             <div class="alert-box">
-                <i class="fas fa-exclamation-triangle"></i>
-             </div>
-             <strong class="active">ACTIVE SCAM ALERT:</strong> Fake "Free Data" messages on Whatsapp. DO NOT cick any links!
-             <a href="scams.html">Learn more </a><br>
-             <a href="about.html"> what we do</a>
-        </div>
-
-       <div class="hero-buttons">
-        <a href="https://www.thehackernews.com/" class="btn btn-primary">start learning <i class="fas fa-arrow-right"></i></a><br>
-        <a href="https://upf.go.ug" class="btn btn-secondary">Report a scam</a>
-       </div>
-
-       <!-- stats -->
-        <div class="stats">
-                <h3>500+</h3>
-                <br>
-                <p><br><br>Articles</p>
-                <br>
-                <h3>60+</h3>
-                <br>
-                <p><br><br>Readers</p> 
-                <br>
-                <h3>100+</h3>
-                <br>
-                <p><br><br>security Tips</p>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-brand">
+                <span class="lightning-logo">⚡</span>
+                <span class="brand-text">TECHBLOOM UGANDA</span>
             </div>
-</section>
-
-<!-- Featured Topies -->
- <section class="featured" id="learn">
-    <div class="container">
-        <h2>What You'll Learn</h2>
-        <p>Essential topics for every Ugandan</p>
-        <!---THIS IS MY TOPICS SECTION-->
-                </div> 
-        <div>
-                <h3>Cyber security Basics</h3>
-                <p>protect yourself from hackers, scammers and online threats</p>
-                <a href="https://www.thehackernews.com/" target="_blank">Start Learning </a>
-                <h3>AI & Future Tech</h3>
-                <P>Understand AI, blockchains and upcoming technologies</P>
-                <a href="https://www.mycryptoguide.co/ai-web3-guides/" target="_blank">Explore →</a>
-                <h3>Family Safety</h3>
-                <p>protect your children and parents online</p>
-                <a href="tips.html">Get Tips </a>
+            <div class="hero-tagline">Empowering Digital Safety</div>
+            <h1>Stay <span class="hero-highlight">Safe</span> & <span class="hero-highlight">Informed</span><br> in the Digital World</h1>
+            <p>Your complete guide to cyber security, emerging technologies, and online safety. We help Ugandans navigate the digital world with confidence.</p>
+            
+            <div class="hero-stats">
+                <div class="hero-stat"><span class="number">500+</span><br><span class="label">ARTICLES</span></div>
+                <div class="hero-stat"><span class="number">60K+</span><br><span class="label">READERS</span></div>
+                <div class="hero-stat"><span class="number">100+</span><br><span class="label">SECURITY TIPS</span></div>
+            </div>
         </div>
+    </section>
+
+    <!-- Alert Banner -->
+    <div class="alert-banner">
+        <i class="fas fa-exclamation-triangle"></i>
+        <strong>ACTIVE SCAM ALERT:</strong> Fake "Free Data" messages on WhatsApp. DO NOT click any links!
+        <a href="scams.html">Learn more →</a>
     </div>
- </section>
+
+    <!-- Buttons -->
+    <div class="hero-buttons">
+        <a href="https://www.thehackernews.com/" class="btn btn-primary" target="_blank">Start Learning <i class="fas fa-arrow-right"></i></a>
+        <a href="https://upf.go.ug" class="btn btn-secondary" target="_blank">Report a scam <i class="fas fa-shield-alt"></i></a>
+    </div>
+
+    <!-- Stats Mini -->
+    <div class="stats-mini">
+        <div class="stat-card"><h3>500+</h3><p>Expert Articles</p></div>
+        <div class="stat-card"><h3>60K+</h3><p>Monthly Readers</p></div>
+        <div class="stat-card"><h3>100+</h3><p>Actionable Tips</p></div>
+    </div>
+
+    <!-- Featured Topics -->
+    <section class="featured">
+        <div class="section-title"><i class="fas fa-compass"></i> What You'll Learn</div>
+        <div class="topics-grid">
+            <div class="topic-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cyber security Basics</h3>
+                <p>Protect yourself from hackers, scammers and online threats.</p>
+                <a href="https://www.thehackernews.com/" target="_blank">Start Learning →</a>
+            </div>
+            <div class="topic-card">
+                <i class="fas fa-microchip"></i>
+                <h3>AI & Future Tech</h3>
+                <p>Understand AI, blockchain and emerging technologies.</p>
+                <a href="https://www.mycryptoguide.co/ai-web3-guides/" target="_blank">Explore →</a>
+            </div>
+            <div class="topic-card">
+                <i class="fas fa-users"></i>
+                <h3>Family Safety</h3>
+                <p>Protect your children and parents online with smart habits.</p>
+                <a href="tips.html">Get Tips →</a>
+            </div>
+        </div>
+    </section>
+
+   
         <!-- Lastest Scams Section -->
   <section class="lastest-scams">
     <div class="container">
